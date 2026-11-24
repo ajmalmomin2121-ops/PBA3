@@ -26,3 +26,11 @@ if __name__ == "__main__":
     society.add_resident(Resident("Rahul", "A-101", 2000, "paid"))
     society.add_resident(Resident("Sneha", "B-202", 2000, "pending"))
     society.display_all_maintenance()
+
+
+
+OUTPUT___________________________
+ajmal@ajmals-MacBook-Air / % /usr/local/bin/python3 /Users/ajmal/ajmal/ajmal.asm/pba3.1.py
+Name: Rahul, Flat: A-101, Fee: 2000, Status: paid
+Name: Sneha, Flat: B-202, Fee: 2000, Status: pending
+ajmal@ajmals-MacBook-Air / % 
