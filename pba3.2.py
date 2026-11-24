@@ -20,3 +20,28 @@ for pwd in ["Pass@123", "pass123", "Admin#9"]:
 user_pwd = input("\nEnter a password: ")
 valid, msg = validate_password(user_pwd)
 print(msg)
+
+output_______________________________________________
+
+
+ajmal@ajmals-MacBook-Air / % /usr/local/bin/python3 /Users/ajmal/ajmal/ajmal.asm/pba3.1.py
+Name: Rahul, Flat: A-101, Fee: 2000, Status: paid
+Name: Sneha, Flat: B-202, Fee: 2000, Status: pending
+ajmal@ajmals-MacBook-Air / % /usr/local/bin/python3 /Users/ajmal/ajmal/ajmal.asm/pba3.2.py
+Pass@123 -> Valid password
+pass123 -> Must be at least 8 characters long
+Admin#9 -> Must be at least 8 characters long
+
+Enter a password: ^CTraceback (most recent call last):
+  File "/Users/ajmal/ajmal/ajmal.asm/pba3.2.py", line 20, in <module>
+    user_pwd = input("\nEnter a password: ")
+KeyboardInterrupt
+
+ajmal@ajmals-MacBook-Air / % /usr/local/bin/python3 /Users/ajmal/ajmal/ajmal.asm/pba3.2.py
+Pass@123 -> Valid password
+pass123 -> Must be at least 8 characters long
+Admin#9 -> Must be at least 8 characters long
+
+Enter a password: Pass@123
+Valid password
+ajmal@ajmals-MacBook-Air / % 
